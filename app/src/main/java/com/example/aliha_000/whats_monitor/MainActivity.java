@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
             public boolean onNavigationItemSelected(MenuItem menuItem){
                 switch (menuItem.getItemId()){
                     case(R.id.nav_account):
-                        Intent accountActivity = new Intent(getApplicationContext(), FirstActivity.class);
+                        Intent accountActivity = new Intent(getApplicationContext(), MainActivity.class);
                         startActivity(accountActivity);
                         break;
                     case(R.id.nav_settings):
